@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.418);
+    position: absolute;
+    z-index: 9;
+    margin-left: 30px;
+    padding-right: 130px;
+
+    h1 {
+        color: red;
+        font-family: Papyrus;
+    }
+
+}
+
+body {
+    font-family: Poppins;
+}
+
+ul {
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    justify-content: center;
+
+
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.hero {
+    background: url(../image/banner.png);
+    background-position: center;
+    background-position: center;
+    background-repeat: cover;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+
+    h1 {
+        font-size: 100px;
+        color: #fff;
+        padding-top: 190px;
+
+    }
+}
+
+#about {
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    gap: 20px;
+    padding-block: 70px;
+    padding-right: 100px;
+
+    .last {
+        margin-bottom: 20px;
+    }
+
+    button {
+
+        background-color: #ED4333;
+        color: #fff;
+        padding: 10px 10px;
+        border: #ED4333;
+    }
+}
+#three3{
+    .our{
+        padding-left: 100px;
+    }
+}
+
+.activities img {
+    width: 200px;
+    height: 300;
+}
+
+.activities {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.616);
+        color: #fff;
+        padding-left: 50px;
+
+    }
+
+
+}
+
+.hover {
+    visibility: hidden;
+}
+
+.card:hover {
+    .hover {
+        visibility: visible;
+    }
+
+    .b {
+        bottom: 0;
+    }
+
+    .a {
+        bottom: 96px;
+    }
+}
+.four{
+    padding-block: 70px;
+    padding-right: 100px;
+    padding-left: 80px;
+    position: relative;
+ 
+    .text-box{
+        position: absolute;
+        padding-left: 40px;
+        width: 60%;
+    }
+    img{
+        width: 200px;
+        height: 250px; 
+}
+
+    .pics{
+    position: relative;
+    
+        display: flex;
+        display: flex;
+    align-items: center;
+    
+    gap: 10px;
+    .card2{
+        padding-top: 165px;
+    }
+    .card3{
+        padding-bottom: 220px;
+    }
+  
+    .cerd4{
+        row-gap:30px;
+        padding-bottom: 300px;
+        .two{
+            padding-top: 10px;
+        }
+       
+        
+    }
+    .card5{
+        img{
+            height: 350px;
+            
+        }
+        padding-bottom: 100px;
+    }
+}
+}
+#Itenaries{
+    
+    padding-left: 30px;
+    .two{
+        padding-top: 10px;
+    }
+    .one1{
+        display: flex;
+        
+        img{
+            width: 250px;
+            height: 350px;
+        }
+    }
+    h1{
+        padding-bottom: 60px;
+    }
+    .card{
+        background-color: #ED4333;
+        color: #fff;
+        width: 250px;
+        height: 350px;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 0px;
+        border: none;
+       
+        h2{
+            font-size: 15px;
+            
+        }
+        h3{
+            
+            
+            font-size: 15px;
+        }
+    }
+    .pics2{
+        position: relative;
+        display: flex;
+        padding-left: 50px;
+        color: #fff;
+        font-size: 7px;
+        gap: 50px;
+        
+        .text1{
+            padding-left: 20px;
+            position: absolute;
+            bottom: 0;
+            
+        }
+        .text{
+            position: absolute;
+            padding-left: 20px;
+            bottom: 0;
+            // padding-left: 20px;
+           
+        }
+        
+        
+    }
+}
+#testimonials{
+    h1{
+        padding-left: 20px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .container{
+        img{
+            width: 300px;
+            height: 400px;
+        }
+        display: flex;
+        gap: 100px;
+    }
+}
+#stories{
+    padding-bottom: 100px;
+    h1{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .first-pics{
+        display: flex;
+        .truck{
+            width: 50%;
+            img{
+                width: 550px;
+                height: 300px;
+            }
+
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+            
+        }
+        .two-pic{
+            width: 50%;
+            display: flex;
+            gap: 10px;
+        }
+        .three-pics{
+            display: flex;
+            width: 50%;
+            gap: 10px;
+            row-gap: 10px;
+            img{
+                
+                width: 177px;
+                height: 200px;
+            }
+        }
+        .bottom-pics{
+            padding-top: 10px;
+            display: flex;
+        .room{
+            width: 50%;
+            img{
+                width: 557.5px;
+                height: 200px;
+
+
+            }
+        }
+    }
+    }
+#footer-main{
+    hr{
+        color: #000000;
+       border:2px solid #000;
+        padding-bottom: 10px;
+    }
+   .footer{
+    padding-top: 30px;
+    .eb{
+display: flex;
+button{
+    background: #000;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(95, 93, 93);
+}
+    }
+    display: flex;
+    justify-content: space-evenly;
+    input{
+        padding: 10px;
+        border: none;
+    }
+   }
+    h2{
+        font-size: 20px
+    }
+    p{
+        font-weight: 200;
+    }
+    background-color:#ED4333 ;
+    color: #fff;
+    font-size: 10px
+    
+    
+}
+#testimonials{
+    position: relative;
+.brown{
+    padding-left: 300px;
+    position: relative;    
+}
+p {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding-left: 50px;
+    
+
+}
+}
+
+
